@@ -55,6 +55,21 @@ var modulas = 2 % 2;
 // chapter 6 Math expressions:
 //           Unfamiliar operators
 
-num = 1
-num
+var mynum = 2
+// post increament
+mynum = mynum++
+console.log(mynum) //2
+// post decreament
+mynum = mynum-- 
+console.log(mynum)// 2
+// pre decreament
+mynum = --mynum
+console.log(mynum)  //1
+// post increament
+mynum = ++mynum
+console.log(mynum)  //2
+
+
+
+
 
