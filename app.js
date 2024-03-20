@@ -71,5 +71,8 @@ console.log(mynum)  //2
 
 
 
+// chapter 7  Math expressions:      (BODMAS RULe)
+//            Eliminating ambiguity
+
 
 
