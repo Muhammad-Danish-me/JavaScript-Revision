@@ -71,8 +71,27 @@ console.log(mynum)  //2
 
 
 
-// chapter 7  Math expressions:      (BODMAS RULe)
+// chapter 7  Math expressions:      (BODMAS RULE)
 //            Eliminating ambiguity
 
+var bNum = ((10 + 15) + 5 * 7)
+console.log("BNUM " + bNum)
 
+var totalCost = 1 + (3 * 4);
+console.log("totalCost " +totalCost)
+
+resultOfComputation = ((2 * 4) * 4) + 2;
+console.log("resultOfComputation " + resultOfComputation)
+
+
+// Chapter 8  Concatenating text strings
+
+var userName = "Danish"
+var message = "Thanks for your input"
+alert(userName + " " + message)
+
+
+
+
+// Chapter 9 Prompts
 
