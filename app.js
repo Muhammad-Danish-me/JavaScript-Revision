@@ -94,4 +94,5 @@ alert(userName + " " + message)
 
 
 // Chapter 9 Prompts
-
+var userNameAlert = prompt("Enter your Name")
+alert(userNameAlert + " Welcome to our website")
