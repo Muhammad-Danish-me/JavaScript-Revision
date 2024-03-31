@@ -25,13 +25,25 @@
 // }
 
 
-var friesLekarAo = prompt("fries kidr se laye ho")
-if (friesLekarAo === "khubaib"){
-    alert("Phyli Dafa koi acha kam kya")
-}else if (friesLekarAo === "waseem"){
-    alert("is se nhi lani thi. Chalo Khair hai")
-}else if (friesLekarAo === "imran"){
-    alert("is se nhi lani thi chalo khair hai")
-}else{
-    alert("wapis krwao mene iski nhi khani")
-}
+// var friesLekarAo = prompt("fries kidr se laye ho")
+// if (friesLekarAo === "khubaib"){
+//     alert("Phyli Dafa koi acha kam kya")
+// }else if (friesLekarAo === "waseem"){
+//     alert("is se nhi lani thi. Chalo Khair hai")
+// }else if (friesLekarAo === "imran"){
+//     alert("is se nhi lani thi chalo khair hai")
+// }else{
+//     alert("wapis krwao mene iski nhi khani")
+// }
+
+
+
+// var myAnswer = prompt("where is Quaid e Azam Mazar")
+// if (myAnswer.toLowerCase() === "karachi"){
+//     alert("correct")
+// }else{
+//     alert("wrong")
+// }
+
+
+
