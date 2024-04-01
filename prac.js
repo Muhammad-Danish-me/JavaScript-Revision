@@ -102,3 +102,11 @@ console.log(unshiftReturnValue)  // return value is lenght
 console.log(myStudents)
 
 
+var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+console.log(myStudentsNames)
+
+myStudentsNames.splice(1, 1) // Delete index 1 value
+console.log(myStudentsNames)
+
+myStudentsNames.splice(1 , 0 ,  "Hammad") // update value before Element index 1
+console.log(myStudentsNames)
