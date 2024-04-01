@@ -62,4 +62,27 @@
 // }\
 
 
+// Arrays 
+
+var students = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+
+// console.log(students)
+
+students[5] = "jawad"   // add jawad
+
+// console.log(students)
+
+var pushReurnValue = students.push("Faraz","Rizwan")  // Add one or more elements from end on an array
+
+console.log(pushReurnValue)  // push return lenght
+
+// console.log(students)
+
+var popReturnValue = students.pop() // remove one element from end of an array
+
+console.log (popReturnValue)   // pop Return Removing value
+
+
+// console.log(students)
+
 
