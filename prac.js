@@ -64,26 +64,26 @@
 
 // Arrays 
 
-// var students = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+var students = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+
+console.log(students)
+
+students[5] = "jawad"   // add jawad
 
 // console.log(students)
 
-// students[5] = "jawad"   // add jawad
+var pushReurnValue = students.push("Faraz","Rizwan")  // Add one or more elements from end on an array
 
-// // console.log(students)
+console.log(pushReurnValue)  // push return lenght
 
-// var pushReurnValue = students.push("Faraz","Rizwan")  // Add one or more elements from end on an array
+// console.log(students)
 
-// console.log(pushReurnValue)  // push return lenght
+var popReturnValue = students.pop() // remove one element from end of an array
 
-// // console.log(students)
-
-// var popReturnValue = students.pop() // remove one element from end of an array
-
-// console.log (popReturnValue)   // pop Return Removing value
+console.log (popReturnValue)   // pop Return Removing value
 
 
-// // console.log(students)
+// console.log(students)
 
 
 var myStudents = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
