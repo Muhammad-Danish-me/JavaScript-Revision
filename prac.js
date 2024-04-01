@@ -47,3 +47,19 @@
 
 
 
+// var userName = prompt("Enter a username") || "not provided"
+
+// console.log(userName)
+
+
+
+// var userName = prompt("enter a username");
+
+// if (userName){
+//     console.log(userName)
+// }else{
+//     console.log("not provided")
+// }\
+
+
+
