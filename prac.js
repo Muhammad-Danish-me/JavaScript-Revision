@@ -119,3 +119,10 @@ var copyarr = students.slice(1,3) // copy array     1 value is index second also
 console.log(copyarr)
 
 console.log(myStudentsNames)
+
+
+
+var  fullName = "Muhammad Danish"
+
+var copy = fullName.slice(9)
+console.log(copy)
