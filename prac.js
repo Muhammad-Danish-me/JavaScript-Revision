@@ -110,3 +110,12 @@ console.log(myStudentsNames)
 
 myStudentsNames.splice(1 , 0 ,  "Hammad") // update value before Element index 1
 console.log(myStudentsNames)
+
+
+var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+
+var copyarr = students.slice(1,3) // copy array     1 value is index second also index  and slice accept minus value
+
+console.log(copyarr)
+
+console.log(myStudentsNames)
