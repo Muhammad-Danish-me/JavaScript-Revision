@@ -141,3 +141,13 @@ var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
 for(var i = 0; i < cities.length; i++){
     console.log(i , cities[i])
 } 
+
+
+
+// table
+
+var table = 2
+
+for(var i = 1; i <= 10; i++){
+    console.log("Table", table + " x " + i + " = " + table * i)
+}
