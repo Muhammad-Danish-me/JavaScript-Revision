@@ -165,3 +165,18 @@ for(var i = 0; i < cities.length; i++){
 if (flag === "false"){
     console.log("nhi mila")
 }
+
+
+
+var userInput = prompt("Inter Anything")
+var palindromeWords = ["civic", "madam" , "maham", "radar" , "level", "refer"]
+var flag = "false"
+for (var i = 0; i < palindromeWords.length; i++){
+    if (palindromeWords[i] == userInput){
+        flag = "true"
+        alert("Palindrome word")
+    }
+}
+if (flag == "false"){
+    alert("Not Palindrome Word")
+}
