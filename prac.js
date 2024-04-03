@@ -138,6 +138,6 @@ console.log(copy)
 
 var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
 
-for(var i = 0; i <= cities.length - 1; i++){
-    console.log(cities[i])
-}
+for(var i = 0; i < cities.length; i++){
+    console.log(i , cities[i])
+} 
