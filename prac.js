@@ -136,11 +136,11 @@ console.log(copy)
 //     console.log(i)
 // }
 
-var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
+// var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
 
-for(var i = 0; i < cities.length; i++){
-    console.log(i , cities[i])
-} 
+// for(var i = 0; i < cities.length; i++){
+//     console.log(i , cities[i])
+// } 
 
 
 
@@ -150,4 +150,18 @@ var table = 2
 
 for(var i = 1; i <= 10; i++){
     console.log("Table", table + " x " + i + " = " + table * i)
+}
+
+
+
+var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
+var flag = "false"
+for(var i = 0; i < cities.length; i++){
+    if (cities[i] === "Karachi"){
+        flag = "true"
+        console.log("milgaya")
+    }
+}
+if (flag === "false"){
+    console.log("nhi mila")
 }
