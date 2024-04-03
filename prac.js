@@ -126,3 +126,18 @@ var  fullName = "Muhammad Danish"
 
 var copy = fullName.slice(9)
 console.log(copy)
+
+
+
+
+// for loop
+
+// for(var i = 1; i <= 5; i++ ){
+//     console.log(i)
+// }
+
+var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
+
+for(var i = 0; i <= cities.length - 1; i++){
+    console.log(cities[i])
+}
