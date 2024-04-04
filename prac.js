@@ -1,182 +1,195 @@
-// var userName = prompt("Enter your username")
-// if (userName == "male"){
-//     alert("you are male")
-// }else if (userName == "female"){
-//     alert("you are female")
-// }else{
-//     alert("invalid input")
-// }
+// // var userName = prompt("Enter your username")
+// // if (userName == "male"){
+// //     alert("you are male")
+// // }else if (userName == "female"){
+// //     alert("you are female")
+// // }else{
+// //     alert("invalid input")
+// // }
 
 
-// var education = prompt("Enter your education");
+// // var education = prompt("Enter your education");
 
-// if (education !== "matric"){
-//     alert("eligible")
-// }else{
-//     alert("not eligible")
-// }
-
-
-// var age = prompt("Enter Your Age! Must be 18 or above otherwise not eligble")
-// if (age >= 18){
-//  alert("eligible")
-// }else  {
-//     alert("Not Eligible")
-// }
+// // if (education !== "matric"){
+// //     alert("eligible")
+// // }else{
+// //     alert("not eligible")
+// // }
 
 
-// var friesLekarAo = prompt("fries kidr se laye ho")
-// if (friesLekarAo === "khubaib"){
-//     alert("Phyli Dafa koi acha kam kya")
-// }else if (friesLekarAo === "waseem"){
-//     alert("is se nhi lani thi. Chalo Khair hai")
-// }else if (friesLekarAo === "imran"){
-//     alert("is se nhi lani thi chalo khair hai")
-// }else{
-//     alert("wapis krwao mene iski nhi khani")
-// }
+// // var age = prompt("Enter Your Age! Must be 18 or above otherwise not eligble")
+// // if (age >= 18){
+// //  alert("eligible")
+// // }else  {
+// //     alert("Not Eligible")
+// // }
 
 
-
-// var myAnswer = prompt("where is Quaid e Azam Mazar")
-// if (myAnswer.toLowerCase() === "karachi"){
-//     alert("correct")
-// }else{
-//     alert("wrong")
-// }
+// // var friesLekarAo = prompt("fries kidr se laye ho")
+// // if (friesLekarAo === "khubaib"){
+// //     alert("Phyli Dafa koi acha kam kya")
+// // }else if (friesLekarAo === "waseem"){
+// //     alert("is se nhi lani thi. Chalo Khair hai")
+// // }else if (friesLekarAo === "imran"){
+// //     alert("is se nhi lani thi chalo khair hai")
+// // }else{
+// //     alert("wapis krwao mene iski nhi khani")
+// // }
 
 
 
-// var userName = prompt("Enter a username") || "not provided"
-
-// console.log(userName)
-
-
-
-// var userName = prompt("enter a username");
-
-// if (userName){
-//     console.log(userName)
-// }else{
-//     console.log("not provided")
-// }\
+// // var myAnswer = prompt("where is Quaid e Azam Mazar")
+// // if (myAnswer.toLowerCase() === "karachi"){
+// //     alert("correct")
+// // }else{
+// //     alert("wrong")
+// // }
 
 
-// Arrays 
 
-var students = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+// // var userName = prompt("Enter a username") || "not provided"
 
-console.log(students)
+// // console.log(userName)
 
-students[5] = "jawad"   // add jawad
+
+
+// // var userName = prompt("enter a username");
+
+// // if (userName){
+// //     console.log(userName)
+// // }else{
+// //     console.log("not provided")
+// // }\
+
+
+// // Arrays 
+
+// var students = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
 
 // console.log(students)
 
-var pushReurnValue = students.push("Faraz","Rizwan")  // Add one or more elements from end on an array
+// students[5] = "jawad"   // add jawad
 
-console.log(pushReurnValue)  // push return lenght
+// // console.log(students)
 
-// console.log(students)
+// var pushReurnValue = students.push("Faraz","Rizwan")  // Add one or more elements from end on an array
 
-var popReturnValue = students.pop() // remove one element from end of an array
+// console.log(pushReurnValue)  // push return lenght
 
-console.log (popReturnValue)   // pop Return Removing value
+// // console.log(students)
 
+// var popReturnValue = students.pop() // remove one element from end of an array
 
-// console.log(students)
-
-
-var myStudents = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
-
-var shiftReturnValue = myStudents.shift() 
-
-console.log(shiftReturnValue)  // return remove value
-
-console.log(myStudents)
+// console.log (popReturnValue)   // pop Return Removing value
 
 
-var unshiftReturnValue = myStudents.unshift("Danish" , "faraz" , "Rizwan" )
-
-console.log(unshiftReturnValue)  // return value is lenght
-
-console.log(myStudents)
+// // console.log(students)
 
 
-var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
-console.log(myStudentsNames)
+// var myStudents = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
 
-myStudentsNames.splice(1, 1) // Delete index 1 value
-console.log(myStudentsNames)
+// var shiftReturnValue = myStudents.shift() 
 
-myStudentsNames.splice(1 , 0 ,  "Hammad") // update value before Element index 1
-console.log(myStudentsNames)
+// console.log(shiftReturnValue)  // return remove value
 
-
-var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
-
-var copyarr = students.slice(1,3) // copy array     1 value is index second also index  and slice accept minus value
-
-console.log(copyarr)
-
-console.log(myStudentsNames)
+// console.log(myStudents)
 
 
+// var unshiftReturnValue = myStudents.unshift("Danish" , "faraz" , "Rizwan" )
 
-var  fullName = "Muhammad Danish"
+// console.log(unshiftReturnValue)  // return value is lenght
 
-var copy = fullName.slice(9)
-console.log(copy)
+// console.log(myStudents)
+
+
+// var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+// console.log(myStudentsNames)
+
+// myStudentsNames.splice(1, 1) // Delete index 1 value
+// console.log(myStudentsNames)
+
+// myStudentsNames.splice(1 , 0 ,  "Hammad") // update value before Element index 1
+// console.log(myStudentsNames)
+
+
+// var myStudentsNames = ["Danish" , "Hammad" , "Ahmed" , "Ali" , "Kamran"]
+
+// var copyarr = students.slice(1,3) // copy array     1 value is index second also index  and slice accept minus value
+
+// console.log(copyarr)
+
+// console.log(myStudentsNames)
 
 
 
+// var  fullName = "Muhammad Danish"
 
-// for loop
+// var copy = fullName.slice(9)
+// console.log(copy)
 
-// for(var i = 1; i <= 5; i++ ){
-//     console.log(i)
+
+
+
+// // for loop
+
+// // for(var i = 1; i <= 5; i++ ){
+// //     console.log(i)
+// // }
+
+// // var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
+
+// // for(var i = 0; i < cities.length; i++){
+// //     console.log(i , cities[i])
+// // } 
+
+
+
+// // table
+
+// var table = 2
+
+// for(var i = 1; i <= 10; i++){
+//     console.log("Table", table + " x " + i + " = " + table * i)
 // }
+
+
 
 // var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
-
+// var flag = "false"
 // for(var i = 0; i < cities.length; i++){
-//     console.log(i , cities[i])
-// } 
+//     if (cities[i] === "Karachi"){
+//         flag = "true"
+//         console.log("milgaya")
+//     }
+// }
+// if (flag === "false"){
+//     console.log("nhi mila")
+// }
 
 
 
-// table
+// var userInput = prompt("Inter Anything")
+// var palindromeWords = ["civic", "madam" , "maham", "radar" , "level", "refer"]
+// var flag = "false"
+// for (var i = 0; i < palindromeWords.length; i++){
+//     if (palindromeWords[i] == userInput){
+//         flag = "true"
+//         alert("Palindrome word")
+//     }
+// }
+// if (flag == "false"){
+//     alert("Not Palindrome Word")
+// }
 
-var table = 2
 
-for(var i = 1; i <= 10; i++){
-    console.log("Table", table + " x " + i + " = " + table * i)
-}
+// min & max
 
+var arr = [2,5,6,8,3,1,9,7]
+var min = arr[0]
 
-
-var cities = ["Karachi", "Islamabad", "Lahore" , "sukkur" , "hyderabad"]
-var flag = "false"
-for(var i = 0; i < cities.length; i++){
-    if (cities[i] === "Karachi"){
-        flag = "true"
-        console.log("milgaya")
+for(var i = 0; i < arr.length; i++){
+    if (arr[i] < min){
+        min = arr[i]
     }
 }
-if (flag === "false"){
-    console.log("nhi mila")
-}
-
-
-
-var userInput = prompt("Inter Anything")
-var palindromeWords = ["civic", "madam" , "maham", "radar" , "level", "refer"]
-var flag = "false"
-for (var i = 0; i < palindromeWords.length; i++){
-    if (palindromeWords[i] == userInput){
-        flag = "true"
-        alert("Palindrome word")
-    }
-}
-if (flag == "false"){
-    alert("Not Palindrome Word")
-}
+console.log(min)
