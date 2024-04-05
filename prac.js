@@ -204,11 +204,26 @@
 
 // }
 
-var arr = [["Danish" , "Ghunio"],
-          ["Hammad", "Khan"]]
+// var arr = [["Danish" , "Ghunio"],
+//           ["Hammad", "Khan"]]
 
-for (var i = 0; i < arr.length; i++){
-    for(var j = 0; j < arr[i].length; j++){
-        console.log(arr[i][j]);
-    }
-}
+// for (var i = 0; i < arr.length; i++){
+//     for(var j = 0; j < arr[i].length; j++){
+//         console.log(arr[i][j]);
+//     }
+// }
+
+
+
+// changing case
+
+// var fullName = prompt("Enter You Full Name").toLowerCase()
+
+// console.log(fullName)
+
+
+// var fullName = prompt("Enter You Full Name").toLowerCase()
+
+// if (fullName === "danish"){
+//     console.log(fullName)
+// }
