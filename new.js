@@ -14,3 +14,12 @@ for(var i = 0; i < myText.length; i++){
         console.log("found")
     }
 }
+
+
+var myText1 = "Oligodon, commonly known as the kukri snakes, is a genus of colubrid snakes that was first described by Austrian zoologist Leopold Fitzinger in 1826."
+
+if(myText1.indexOf("commonly") !== -1){
+    console.log("Found")
+}else{
+    console.log("not found")
+}
