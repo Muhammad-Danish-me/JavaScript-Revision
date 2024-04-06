@@ -21,3 +21,11 @@ var copy = "Danish"
 
 console.log(copy.slice(0,1,))
 
+
+var text = "World War II"
+
+var firstChar = text.indexOf("World War II");
+ if (firstChar !== -1) {
+    text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+    console.log(text)
+ }
