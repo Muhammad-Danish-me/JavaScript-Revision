@@ -8,3 +8,5 @@ if (skills === "html") {
     alert("hired");
   } else alert("Not Hired");
 } else alert("not hired");
+
+
